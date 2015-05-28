@@ -22,7 +22,7 @@ pod 'AppAnalytics', '~> 1.0.0'
 
 3. Run: 
  
-  `pod install`
+`$ pod install`
 
 4. From now on, be sure to always open the generated Xcode workspace (.xcworkspace) instead of the project file when building your project: 
 
