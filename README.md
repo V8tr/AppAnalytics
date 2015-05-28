@@ -1,4 +1,6 @@
-AppAnalytics
+<p align="center" >
+  <img src="https://raw.githubusercontent.com/V8tr/AppAnalytics/master/logo.png" alt="AppAnalytics" title="AppAnalytics">
+</p>
 ======
 This repository contains CocoaPod for AppAnalytics (http://appanalytics.io).
 
