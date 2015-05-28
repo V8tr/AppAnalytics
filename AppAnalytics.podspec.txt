@@ -1,0 +1,17 @@
+Pod::Spec.new do |spec|
+
+  spec.name         = "AppAnalytics"
+  spec.version      = "1.0.0"
+  spec.summary      = "AppAnalytics framework for iOS"
+  spec.homepage     = "http://appanalytics.io"
+  spec.author       = "AppAnalytics"
+  spec.license      = { :type => "MIT", :file => "LICENSE.md" }
+  spec.platform     = :ios, "7.0"
+  spec.source       = { :git => "https://github.com/V8tr/AppAnalytics.git", :tag => "v#{spec.version}" }
+  spec.requires_arc = true
+  spec.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'CoreLocation', 'StoreKit', 'Foundation'
+  spec.vendored_frameworks = "AppAnalytics.framework"
+  spec.requires_objc_categories = true
+  spec.xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+
+end
