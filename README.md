@@ -40,7 +40,7 @@ $ pod install
 ```
 
 2) Undefined symbols for architecture armv7: "_OBJC_CLASS_$_AppAnalytics", referenced from ... .
-Happens when you override cocoa pods linker flags in your target.
+Happens when you override CocoaPods linker flags in your target.
 ```
 Go to your target Build Settings -> Other linker flags -> double click. Add $(inherited) to a new line .
 ```
